@@ -45,7 +45,7 @@ Security includes the following:
 
 Flexibility includes the following:
 
-- a "universal" common reference string (this means the reference string is independent of the relation so we wouldn't need to generate a new reference string to prove a new statement each time)
+- a "universal" reference string (this means the reference string is independent of the relation so we wouldn't need to generate a new reference string to prove a new statement each time)
 - support of arbitrary computation (can we express more complex logic with our scheme? e.g. voting)
 - support of "stateful" computation (can incorporate some notion of state/time)
 
