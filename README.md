@@ -37,6 +37,7 @@ Efficiency includes the following properties:
 Security includes the following:
 
 - hardness assumption used (preferably the hardness assumption used is well-understood and weak; security should be based solely on cryptography)
+- security proofs
 - use of trusted setup (trusted setups weaken security)
 - post-quantum (ideal if scheme is post-quantum)
 
