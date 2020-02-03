@@ -5,7 +5,7 @@
 |                           | Efficiency[[0]](#Efficiency) | Security[[1]](#Security) | Flexibility[[2]](#Flexibility) | Trust Level Needed[[3]](#Trust-Level) |
 | ------------------------- | :--------------------------: | :----------------------: | :----------------------------: | :-----------------------------------: |
 | [Zether](./zether.md)     |           Mediocre           |           High           |             Medium             |                  Low                  |
-| [Aztec](./aztec.md)       |          Efficient           |          Medium          |              Low               |                 High                  |
+| [Aztec](./aztec.md)       |          Efficient           |          Low-Medium          |              Low               |                 High                  |
 | [Zexe](./zexe.md)         |       Fairly Efficient       |          Medium          |          Medium-High           |                 High                  |
 | [Zerocash](./zerocash.md) |       Fairly Efficient       |          Medium          |              Low               |                 High                  |
 
