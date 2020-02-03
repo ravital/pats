@@ -11,15 +11,15 @@
 
 ## Purpose
 
-Private asset transfer solutions (PATS) are arguably the most popular application of ZKPs currently. However, with so many solutions on offer, it is easy for a non-expert in the space to feel overwhelmed and struggle to understand the differences between them. While there has been effort in the [ZKProof](https://zkproof.org) community towards creating a conceptual framework for comparing and contrasting different ZKP protocols, there has yet to have been a clearframework suggested for comparing private asset transfer solutions.
+Private asset transfer solutions (PATS) are arguably the most popular application of [ZKPs](https://en.wikipedia.org/wiki/Zero-knowledge_proof) currently. However, with so many solutions on offer, it is easy for a non-expert in the space to feel overwhelmed and struggle to understand the differences between them. While there has been effort in the [ZKProof](https://zkproof.org) community towards creating a conceptual framework for comparing and contrasting different ZKP protocols, there has yet to have been a clearframework suggested for comparing private asset transfer solutions.
 
-We will explain how we can use some of the properties of ZKPs (from [ZKProof Community Reference Version 0.2](https://docs.zkproof.org/assets/docs/reference-v0.2.pdf))—namely security, efficiency, and trust—to effectively compare private asset transfer solutions. We also introduce the concept of [flexibility](#Flexibility) in discussing private asset transfer solutions which incorporates the notions of preprocessing, CRS, and SRS. In light of these 4 properties, we compare some recent solutions. With new notions and features being added to ZKPs and private asset transfer solutions—such as the notion of updateable trust (e.g. [Sonic](https://eprint.iacr.org/2019/099.pdf)) and allowing for private computation beyond transactions (e.g. [Zether](https://eprint.iacr.org/2019/191.pdf), [Zexe](https://eprint.iacr.org/2018/962.pdf))—we hope that the introduction of the notion of flexibility will capture new developments in the space.
+We will explain how we can use some of the properties of ZKPs (from [ZKProof Community Reference Version 0.2](https://docs.zkproof.org/assets/docs/reference-v0.2.pdf))—namely security, efficiency, and trust—to effectively compare private asset transfer solutions. We also introduce the concept of [flexibility](#Flexibility) in discussing private asset transfer solutions which incorporates the notions of preprocessing, [CRS](https://en.wikipedia.org/wiki/Common_reference_string_model), and SRS. In light of these 4 properties, we compare some recent solutions. With new notions and features being added to ZKPs and private asset transfer solutions—such as the notion of updateable trust (e.g. [Sonic](https://eprint.iacr.org/2019/099.pdf)) and allowing for private computation beyond transactions (e.g. [Zether](https://eprint.iacr.org/2019/191.pdf), [Zexe](https://eprint.iacr.org/2018/962.pdf))—we hope that the introduction of the notion of flexibility will capture new developments in the space.
 
 As PATS are introduced, we will add to this table. We also hope that the creation of this framework will lead to a larger conversation within the ZKProof community about how best to discuss PATS with a broader audience.
 
 ## Definitions
 
-Where possible, we incorporate the definitions of the ZKProof Community Reference document. There has been increasing interest in allowing for computation beyond pure transactions in PATS (e.g. "smart contracts"). Thus, we introduce the concept of "flexbility" which measures if the scheme supports more complex logic.
+Where possible, we incorporate the definitions of the ZKProof Community Reference document. There has been increasing interest in allowing for computation beyond pure transactions in PATS (e.g. "[smart contracts](https://github.com/ethereum/wiki/wiki/white-paper)"). Thus, we introduce the concept of "flexbility" which measures if the scheme supports more complex logic.
 
 ### Efficiency
 
@@ -39,7 +39,7 @@ Security includes the following:
 - hardness assumption used (preferably the hardness assumption used is well-understood and weak; security should be based solely on cryptography)
 - rigorous security proofs/analysis
 - use of trusted setup (trusted setups weaken security)
-- post-quantum (ideal if scheme is post-quantum)
+- [post-quantum](https://en.wikipedia.org/wiki/Post-quantum_cryptography) (ideal if scheme is post-quantum)
 
 ### Flexibility
 
