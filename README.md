@@ -19,7 +19,7 @@ As PATS are introduced, we will add to this table. We also hope that the creatio
 
 ## Definitions
 
-Where possible, we incorporate the definitions of the ZKProof Community Reference document. There has been increasing interest in allowing for computation beyond pure transactions in PATS (e.g. "[smart contracts](https://github.com/ethereum/wiki/wiki/white-paper)"). Thus, we introduce the concept of "flexbility" which measures if the scheme supports more complex logic.
+Where possible, we incorporate the definitions of the [ZKProof Community Reference document](https://docs.zkproof.org/assets/docs/reference-v0.2.pdf). There has been increasing interest in allowing for computation beyond pure transactions in PATS (e.g. "[smart contracts](https://github.com/ethereum/wiki/wiki/white-paper)"). Thus, we introduce the concept of "flexbility" which measures if the scheme supports more complex logic.
 
 ### Efficiency
 
