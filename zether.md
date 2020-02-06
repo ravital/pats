@@ -10,7 +10,7 @@ We only look at "confidential" transactions. Confidential transactions hide the 
 
 |                           |           Efficiency         |
 | ------------------------- | :--------------------------: |
-| Communication complexity  |                              |
+| [Communication complexity](https://en.wikipedia.org/wiki/Communication_complexity)  |                              |
 | Reference string size     |               Linear (needed by Verifier)               |
 | Setup time                |                              |
 | Time to generate transactions |                             |
@@ -28,14 +28,14 @@ We only look at "confidential" transactions. Confidential transactions hide the 
 | ZKP                       |        Bulletproofs ([Sigma-Bullets](https://eprint.iacr.org/2019/191.pdf)) |
 | Security proofs/analysis                  |         Yes&mdash;rigorous!                     |
 | Non-standard assumptions                 |                              |
-| Post-quantum               |                No!              |
-| Trusted setup                |              No!                |
+| [Post-quantum](https://en.wikipedia.org/wiki/Post-quantum_cryptography)               |                No!              |
+| [Trusted setup](https://zcoin.io/ufaqs/what-is-trusted-setup/)                |              No!                |
 
 ## Flexbility
 
 |                           | Flexibility                 |
 | ------------------------- | :--------------------------: |
-| Universal reference string                 |                              |
+| [Universal reference string](https://docs.zkproof.org/assets/docs/reference-v0.2.pdf)                 |                              |
 | Support of arbitrary computation                |                            |
 | Support of stateful computation                 |     Yes!                      |
 | Suggested applications                 |    Sealed-bid auctions, stake voting                          |
@@ -45,5 +45,5 @@ We only look at "confidential" transactions. Confidential transactions hide the 
 
 |                           | Trust Level                  |
 | ------------------------- | :--------------------------: |
-| Trusted setup               |            No!                  |
+| [Trusted setup](https://zcoin.io/ufaqs/what-is-trusted-setup/)               |            No!                  |
 | Any other process req. trust               |                              |
