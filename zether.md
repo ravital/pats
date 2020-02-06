@@ -17,7 +17,7 @@ We only look at "confidential" transactions. Confidential transactions hide the 
 | Time to verify transactions   |                             |
 | Transaction size          |                              |
 | Computational resources needed |                            |
-| Potential for scalability      |                            |
+| Potential for scalability      |         Via [aggregating proofs](https://eprint.iacr.org/2017/1066.pdf) and [batch verification](https://eprint.iacr.org/2017/1066.pdf)                   |
 
 ## Security
 
@@ -43,5 +43,5 @@ We only look at "confidential" transactions. Confidential transactions hide the 
 
 |                           | Trust Level                  |
 | ------------------------- | :--------------------------: |
-| Trusted setup               |                              |
+| Trusted setup               |            No!                  |
 | Any other process req. trust               |                              |
