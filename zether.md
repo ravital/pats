@@ -11,11 +11,11 @@ We only look at "confidential" transactions. Confidential transactions hide the 
 |                           |           Efficiency         |
 | ------------------------- | :--------------------------: |
 | Communication complexity  |                              |
-| Transaction size          |                              |
 | Reference string size     |                              |
 | Setup time                |                              |
 | Time to generate transactions |                             |
 | Time to verify transactions   |                             |
+| Transaction size          |                              |
 | Computational resources needed |                            |
 | Potential for scalability      |                            |
 
