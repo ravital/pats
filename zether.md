@@ -11,10 +11,10 @@ We only look at "confidential" transactions. Confidential transactions hide the 
 |                           |           Efficiency         |
 | ------------------------- | :--------------------------: |
 | [Communication complexity](https://en.wikipedia.org/wiki/Communication_complexity)  |                              |
-| Reference string size     |               Linear (needed by Verifier)               |
+| Reference string size     |               Linear (needed by Verifier);               |
 | Setup time                |                              |
-| Time to generate transactions |                             |
-| Time to verify transactions   |                             |
+| Time to generate transactions |            Linear (in bit length of range);                 |
+| Time to verify transactions   |       Linear (in bit length of range);                      |
 | Transaction size          |            Logarithmic; concretely, [1472 bytes](https://eprint.iacr.org/2019/191.pdf) when optimized to work with Ethereum                  |
 | Computational resources needed |                            |
 | Potential for scalability      |         Via [aggregating proofs](https://eprint.iacr.org/2017/1066.pdf) and [batch verification](https://eprint.iacr.org/2017/1066.pdf)                   |
