@@ -6,7 +6,7 @@ Something interesting about zether
 
 ## Efficiency
 
-We only look at "confidential" transactions. Confidential transactions hide amount being transferred but *not* the identities of the parties involved in the transaction. Zether also allows for "anonymous" transactions in which the indentities of the parties involved in the transaction are "hidden."
+We only look at "confidential" transactions. Confidential transactions hide the amount being transferred but *not* the identities of the parties involved in the transaction. Zether also allows for "anonymous" transactions in which the indentities of the parties involved in the transaction are "hidden."
 
 |                           |           Efficiency         |
 | ------------------------- | :--------------------------: |
