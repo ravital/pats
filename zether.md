@@ -6,15 +6,18 @@ Something interesting about zether
 
 ## Efficiency
 
+We only look at "confidential" transactions. Confidential transactions hide amount being transferred but *not* the identities of the parties involved in the transaction. Zether also allows for "anonymous" transactions in which the indentities of the parties involved in the transaction are "hidden."
+
 |                           |           Efficiency         |
 | ------------------------- | :--------------------------: |
-| Communication complexity                  |                              |
-| Reference string size                  |                              |
-| Setup time                  |                              |
-| Time to generate transactions                  |                              |
-| Time to verify transactions                |                              |
-| Computational resources needed                 |                              |
-| Potential for scalability                  |                              |
+| Communication complexity  |                              |
+| Transaction size          |                              |
+| Reference string size     |                              |
+| Setup time                |                              |
+| Time to generate transactions |                             |
+| Time to verify transactions   |                             |
+| Computational resources needed |                            |
+| Potential for scalability      |                Via batching (since they use Bulletproofs)              |
 
 ## Security
 
