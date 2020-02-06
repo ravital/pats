@@ -23,8 +23,8 @@ We only look at "confidential" transactions. Confidential transactions hide the 
 
 |                           | Security                  |
 | ------------------------- | :--------------------------: |
-| Based on cryptography                 |                              |
-| Based on hardware                 |                              |
+| Based on cryptography                 |       Yes&mdash;[discrete logs](https://en.wikipedia.org/wiki/Discrete_logarithm)                    |
+| Based on hardware                 |            No!                  |
 | Security proofs/analysis                  |                              |
 | Non-standard assumptions                 |                              |
 | Post-quantum               |                              |
