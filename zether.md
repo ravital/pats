@@ -6,16 +6,16 @@ Something interesting about zether
 
 ## Efficiency
 
-We only look at "confidential" transactions. Confidential transactions hide the amount being transferred but *not* the identities of the parties involved in the transaction. Zether also allows for "anonymous" transactions in which the indentities of the parties involved in the transaction are "hidden."
+We only look at "confidential" transactions. Confidential transactions hide the amount being transferred but *not* the identities of the parties involved in the transaction. Zether also allows for "anonymous" transactions (via the use of [ring signatures](https://en.wikipedia.org/wiki/Ring_signature) in which the indentities of the parties involved in the transaction are "hidden."
 
 |                           |           Efficiency         |
 | ------------------------- | :--------------------------: |
 | Communication complexity  |                              |
-| Reference string size     |                              |
+| Reference string size     |               Linear (needed by Verifier)               |
 | Setup time                |                              |
 | Time to generate transactions |                             |
 | Time to verify transactions   |                             |
-| Transaction size          |                              |
+| Transaction size          |            Logarithmic; concretely, [1472 bytes](https://eprint.iacr.org/2019/191.pdf) when optimized to work with Ethereum                  |
 | Computational resources needed |                            |
 | Potential for scalability      |         Via [aggregating proofs](https://eprint.iacr.org/2017/1066.pdf) and [batch verification](https://eprint.iacr.org/2017/1066.pdf)                   |
 
@@ -26,7 +26,7 @@ We only look at "confidential" transactions. Confidential transactions hide the 
 | Based on cryptography                 |       Yes&mdash;[discrete logs](https://en.wikipedia.org/wiki/Discrete_logarithm)                    |
 | Based on hardware                 |            No!                  |
 | ZKP                       |        Bulletproofs ([Sigma-Bullets](https://eprint.iacr.org/2019/191.pdf)) |
-| Security proofs/analysis                  |                              |
+| Security proofs/analysis                  |         Yes&mdash;rigorous!                     |
 | Non-standard assumptions                 |                              |
 | Post-quantum               |                No!              |
 | Trusted setup                |              No!                |
@@ -37,7 +37,7 @@ We only look at "confidential" transactions. Confidential transactions hide the 
 | ------------------------- | :--------------------------: |
 | Universal reference string                 |                              |
 | Support of arbitrary computation                |                            |
-| Support of stateful computation                 |                           |
+| Support of stateful computation                 |     Yes!                      |
 | Suggested applications                 |    Sealed-bid auctions, stake voting                          |
 
 
