@@ -36,8 +36,9 @@ We only look at "confidential" transactions. Confidential transactions hide the 
 |                           | Flexibility                 |
 | ------------------------- | :--------------------------: |
 | Universal reference string                 |                              |
-| Support of arbitrary computation                |                              |
-| Support of stateful computation                 |                              |
+| Support of arbitrary computation                |                            |
+| Support of stateful computation                 |                           |
+| Suggested applications                 |    Sealed-bid auctions, stake voting                          |
 
 
 ## Trust
