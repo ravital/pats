@@ -27,7 +27,7 @@ We only look at "confidential" transactions. Confidential transactions hide the 
 | Based on hardware                 |            No!                  |
 | ZKP                       |        Bulletproofs ([Sigma-Bullets](https://eprint.iacr.org/2019/191.pdf)) |
 | Security proofs/analysis                  |         Yes&mdash;rigorous!                     |
-| Non-standard assumptions                 |                              |
+| Non-standard assumptions                 |        Potentially [random oracle](https://en.wikipedia.org/wiki/Random_oracle)                      |
 | [Post-quantum](https://en.wikipedia.org/wiki/Post-quantum_cryptography)               |                No!              |
 | [Trusted setup](https://zcoin.io/ufaqs/what-is-trusted-setup/)                |              No!                |
 
