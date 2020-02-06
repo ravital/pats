@@ -17,7 +17,7 @@ We only look at "confidential" transactions. Confidential transactions hide the 
 | Time to generate transactions |                             |
 | Time to verify transactions   |                             |
 | Computational resources needed |                            |
-| Potential for scalability      |                Via batching (since they use Bulletproofs)              |
+| Potential for scalability      |                            |
 
 ## Security
 
