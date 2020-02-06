@@ -23,12 +23,12 @@ We only look at "confidential" transactions. Confidential transactions hide the 
 
 |                           | Security                  |
 | ------------------------- | :--------------------------: |
-| Based on cryptography                 |       Yes&mdash;[discrete logs](https://en.wikipedia.org/wiki/Discrete_logarithm)                    |
+| Based on cryptography                 |       Yes&mdash;[discrete logs](https://en.wikipedia.org/wiki/Discrete_logarithm), specifically [Decisional Diffie-Hellman](https://en.wikipedia.org/wiki/Decisional_Diffie%E2%80%93Hellman_assumption)                    |
 | Based on hardware                 |            No!                  |
 | Security proofs/analysis                  |                              |
 | Non-standard assumptions                 |                              |
-| Post-quantum               |                              |
-| Trusted setup                |                              |
+| Post-quantum               |                No!              |
+| Trusted setup                |              No!                |
 
 ## Flexbility
 
