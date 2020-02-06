@@ -38,7 +38,7 @@ We only look at "confidential" transactions. Confidential transactions hide the 
 | [Universal reference string](https://docs.zkproof.org/assets/docs/reference-v0.2.pdf)                 |                              |
 | Support of arbitrary computation                |         No&mdash;additive relations only                   |
 | Support of stateful computation                 |     Yes!                      |
-| Suggested applications                 |    Sealed-bid auctions, stake voting                          |
+| Suggested applications                 |    [Sealed-bid auctions, stake voting](https://eprint.iacr.org/2019/191.pdf)                          |
 
 
 ## Trust
