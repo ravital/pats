@@ -7,10 +7,10 @@
 |                           |           Efficiency         |
 | ------------------------- | :--------------------------: |
 | [Communication complexity](https://en.wikipedia.org/wiki/Communication_complexity)  |                              |
-| Reference string size     |                            |
+| Reference string size     |       Linear ([in cardinality of range used by range proof](https://github.com/AztecProtocol/AZTEC/blob/master/AZTEC.pdf))                     |
 | Setup time                |                              |
 | Time to generate transactions |                             |
-| Time to verify transactions   |                             |
+| Time to verify transactions   |       Constant                      |
 | Transaction size          |                            |
 | Computational resources needed |                            |
 | Potential for scalability      |                         |
@@ -34,7 +34,7 @@
 | [Universal reference string](https://docs.zkproof.org/assets/docs/reference-v0.2.pdf)                 |                              |
 | Support of arbitrary computation                |           No                 |
 | Support of stateful computation                 |        No                |
-| Suggested applications                 |                             |
+| Suggested applications                 |            Just asset transfers*                 |
 
 
 ## Trust
