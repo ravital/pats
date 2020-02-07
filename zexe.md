@@ -11,7 +11,7 @@
 | Setup time                |                              |
 | Time to generate transactions |                             |
 | Time to verify transactions   |                             |
-| Transaction size          |                            |
+| Transaction size          |      Linear (in number of input and output records); [968 bytes for 2 input/output records](https://eprint.iacr.org/2018/962.pdf)                      |
 | Computational resources needed |  Specialized for generation of computation ([Intel Xeon 6138 CPU at 3.0 Ghz, 252GB of RAM](https://eprint.iacr.org/2018/962.pdf))                          |
 | Potential for scalability      |                         |
 
