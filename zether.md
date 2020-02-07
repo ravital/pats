@@ -28,14 +28,14 @@ We only look at "confidential" transactions. Confidential transactions hide the 
 | ZKP                       |        Bulletproofs ([Sigma-Bullets](https://eprint.iacr.org/2019/191.pdf)) |
 | Security proofs/analysis                  |         Yes&mdash;rigorous!                     |
 | Non-standard assumptions                 |        Potentially [random oracle](https://en.wikipedia.org/wiki/Random_oracle)                      |
-| [Post-quantum](https://en.wikipedia.org/wiki/Post-quantum_cryptography)               |                No!              |
+| [Post-quantum](https://en.wikipedia.org/wiki/Post-quantum_cryptography)               |                No            |
 | [Trusted setup](https://zcoin.io/ufaqs/what-is-trusted-setup/)                |              No!                |
 
 ## Flexbility
 
 |                           | Flexibility                 |
 | ------------------------- | :--------------------------: |
-| [Universal reference string](https://docs.zkproof.org/assets/docs/reference-v0.2.pdf)                 |                              |
+| [Universal reference string](https://docs.zkproof.org/assets/docs/reference-v0.2.pdf)    |       Yes!                       |
 | Support of arbitrary computation                |         No&mdash;additive relations only                   |
 | Support of stateful computation                 |     Yes!                      |
 | Suggested applications                 |    [Sealed-bid auctions, stake voting](https://eprint.iacr.org/2019/191.pdf)                          |
