@@ -22,7 +22,7 @@
 | Based on cryptography                 |       Yes&mdash;[discrete logs](https://en.wikipedia.org/wiki/Discrete_logarithm)                   |
 | Based on hardware                 |                             |
 | ZKP                       |    [Sigma Protocol](https://en.wikipedia.org/wiki/Proof_of_knowledge#Sigma_protocols)    |
-| Security proofs/analysis                  |        Some important analysis missing                    |
+| Security proofs/analysis                  |        Some important analysis missing*                    |
 | Non-standard assumptions                 |       Potentially [random oracle](https://en.wikipedia.org/wiki/Random_oracle)                       |
 | [Post-quantum](https://en.wikipedia.org/wiki/Post-quantum_cryptography)               |      No                     |
 | [Trusted setup](https://zcoin.io/ufaqs/what-is-trusted-setup/)                |         Yes                 |
