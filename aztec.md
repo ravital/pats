@@ -21,11 +21,11 @@
 | ------------------------- | :--------------------------: |
 | Based on cryptography                 |                          |
 | Based on hardware                 |                             |
-| ZKP                       |        |
+| ZKP                       |    [Sigma Protocol](https://en.wikipedia.org/wiki/Proof_of_knowledge#Sigma_protocols)    |
 | Security proofs/analysis                  |                            |
 | Non-standard assumptions                 |                              |
 | [Post-quantum](https://en.wikipedia.org/wiki/Post-quantum_cryptography)               |                           |
-| [Trusted setup](https://zcoin.io/ufaqs/what-is-trusted-setup/)                |                          |
+| [Trusted setup](https://zcoin.io/ufaqs/what-is-trusted-setup/)                |         Yes                 |
 
 ## Flexbility
 
@@ -41,6 +41,6 @@
 
 |                           | Trust Level                  |
 | ------------------------- | :--------------------------: |
-| [Trusted setup](https://zcoin.io/ufaqs/what-is-trusted-setup/)               |                        |
+| [Trusted setup](https://zcoin.io/ufaqs/what-is-trusted-setup/)               |       Yes                 |
 | Any other process req. trust               |                              |
 
