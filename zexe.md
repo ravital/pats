@@ -12,7 +12,7 @@
 | Time to generate transactions |                             |
 | Time to verify transactions   |                             |
 | Transaction size          |                            |
-| Computational resources needed |  Specialized for generation of transactions/proofs                          |
+| Computational resources needed |  Specialized for generation of computation ([Intel Xeon 6138 CPU at 3.0 Ghz, 252GB of RAM](https://eprint.iacr.org/2018/962.pdf))                          |
 | Potential for scalability      |                         |
 
 ## Security
