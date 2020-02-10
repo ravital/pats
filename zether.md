@@ -10,7 +10,7 @@ We only look at "confidential" transactions. Confidential transactions hide the 
 
 |                           |           Efficiency         |
 | ------------------------- | :--------------------------: |
-| [Communication complexity](https://en.wikipedia.org/wiki/Communication_complexity)  |                              |
+| [Communication complexity](https://en.wikipedia.org/wiki/Communication_complexity)  |      Logarithmic;                        |
 | Reference string size     |               Linear (needed by Verifier);               |
 | Setup time                |                              |
 | Time to generate transactions |            Linear (in bit length of range);                 |
