@@ -4,9 +4,9 @@
 
 |                           | Efficiency[[0]](#Efficiency) | Security[[1]](#Security) | Flexibility[[2]](#Flexibility) | Trust Level Needed[[3]](#Trust-Level) |
 | ------------------------- | :--------------------------: | :----------------------: | :----------------------------: | :-----------------------------------: |
-| [Zether](./zether.md)     |           Mediocre           |           High           |             Medium             |                  Low                  |
-| [Aztec](./aztec.md)       |          Efficient           |          Low-Medium          |              Low               |                 High                  |
-| [Zexe](./zexe.md)         |       Fairly Efficient       |          Medium          |          Medium-High           |                 High                  |
+| [Zether](./zether.md)     |           Mediocre<!--&mdash;due to Bulletproofs-->           |           High<!--&mdash;well-understood assumptions, no trusted setup-->           |             Medium<!--&mdash;*cannot* support arbitrary computation-->             |                  Low<!--&mdash;no trusted setup-->                  |
+| [Aztec](./aztec.md)       |          Efficient<!--&mdash;due to Sigma protocols-->           |          Low-Medium<!--&mdash;trusted setup, missing important analysis-->          |              Low<!--&mdash;*cannot* support stateful/arbitrary computation, new setup-->               |                 High<!--&mdash;trusted setup-->                  |
+| [Zexe](./zexe.md)         |       Mediocre       |          Medium          |          Medium-High           |                 High                  |
 | [Zerocash](./zerocash.md) |       Fairly Efficient       |          Medium          |              Low               |                 High                  |
 
 ## Purpose
