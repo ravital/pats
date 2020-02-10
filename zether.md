@@ -15,7 +15,7 @@ We only look at "confidential" transactions. Confidential transactions hide the 
 | Setup time                |                              |
 | Time to generate transactions |            Linear (in bit length of range);                 |
 | Time to verify transactions   |       Linear (in bit length of range);                      |
-| Transaction size          |            Logarithmic; concretely, [1472 bytes](https://eprint.iacr.org/2019/191.pdf) when optimized to work with Ethereum                  |
+| Transaction size          |            Logarithmic (in the [witness](https://en.wikipedia.org/wiki/NP_(complexity)) size); concretely, [1472 bytes](https://eprint.iacr.org/2019/191.pdf) when optimized to work with Ethereum                  |
 | Computational resources needed |   Minimal (from [Bulletproofs](https://eprint.iacr.org/2017/1066.pdf): Intel i7-6820HQ, single thread, <100MB memory)                         |
 | Potential for scalability      |         Via [aggregating proofs](https://eprint.iacr.org/2017/1066.pdf) and [batch verification](https://eprint.iacr.org/2017/1066.pdf)                   |
 
