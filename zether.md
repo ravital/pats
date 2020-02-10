@@ -25,7 +25,7 @@ We only look at "confidential" transactions. Confidential transactions hide the 
 | ------------------------- | :--------------------------: |
 | Based on cryptography                 |       Yes&mdash;[discrete logs](https://en.wikipedia.org/wiki/Discrete_logarithm)                    |
 | Based on hardware                 |            No!                  |
-| ZKP                       |        Bulletproofs ([Sigma-Bullets](https://eprint.iacr.org/2019/191.pdf)) |
+| ZKP                       |        Bulletproofs and [Sigma protcols](https://en.wikipedia.org/wiki/Proof_of_knowledge#Sigma_protocols) ([Sigma-Bullets](https://eprint.iacr.org/2019/191.pdf)) |
 | Security proofs/analysis                  |         Yes&mdash;rigorous!                     |
 | Non-standard assumptions                 |        Potentially [random oracle](https://en.wikipedia.org/wiki/Random_oracle)                      |
 | [Post-quantum](https://en.wikipedia.org/wiki/Post-quantum_cryptography)               |                No            |
