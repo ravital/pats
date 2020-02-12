@@ -1,4 +1,4 @@
-# Zexe
+# [Zexe](https://eprint.iacr.org/2018/962.pdf)
 
 
 ## Tools
