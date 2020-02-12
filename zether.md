@@ -1,4 +1,4 @@
-# Zether
+# [Zether](https://eprint.iacr.org/2019/191.pdf)
 
 Something interesting about zether
 
@@ -46,4 +46,4 @@ We only look at "confidential" transactions. Confidential transactions hide the 
 |                           | Trust Level                  |
 | ------------------------- | :--------------------------: |
 | [Trusted setup](https://zcoin.io/ufaqs/what-is-trusted-setup/)               |            No!                  |
-| Any other process req. trust               |                              |
+| Any other process req. trust               |          No!                    |
