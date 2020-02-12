@@ -1,4 +1,4 @@
-# Aztec
+# [Aztec](https://github.com/AztecProtocol/AZTEC/blob/master/AZTEC.pdf)
 
 ## Tools
 
