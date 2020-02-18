@@ -1,5 +1,5 @@
-# Zerocash
-
+# [Zerocash](http://zerocash-project.org/media/pdf/zerocash-extended-20140518.pdf)
+[Zcash](https://z.cash) uses the [Zerocash protocol](http://zerocash-project.org/media/pdf/zerocash-extended-20140518.pdf).
 ## Tools
 
 ## Efficiency
@@ -21,17 +21,17 @@
 | ------------------------- | :--------------------------: |
 | Based on cryptography                 |                          |
 | Based on hardware                 |                             |
-| ZKP                       |        |
+| ZKP                       |   [zk-SNARKs](http://zerocash-project.org/media/pdf/zerocash-extended-20140518.pdf)     |
 | Security proofs/analysis                  |                            |
 | Non-standard assumptions                 |                              |
-| [Post-quantum](https://en.wikipedia.org/wiki/Post-quantum_cryptography)               |                           |
-| [Trusted setup](https://zcoin.io/ufaqs/what-is-trusted-setup/)                |                          |
+| [Post-quantum](https://en.wikipedia.org/wiki/Post-quantum_cryptography)               |       No                    |
+| [Trusted setup](https://zcoin.io/ufaqs/what-is-trusted-setup/)                |            Yes              |
 
 ## Flexbility
 
 |                           | Flexibility                 |
 | ------------------------- | :--------------------------: |
-| [Universal reference string](https://docs.zkproof.org/assets/docs/reference-v0.2.pdf)                 |                              |
+| [Universal reference string](https://docs.zkproof.org/assets/docs/reference-v0.2.pdf)      |              No               |
 | Support of arbitrary computation                |                            |
 | Support of stateful computation                 |                        |
 | Suggested applications                 |                             |
@@ -41,6 +41,6 @@
 
 |                           | Trust Level                  |
 | ------------------------- | :--------------------------: |
-| [Trusted setup](https://zcoin.io/ufaqs/what-is-trusted-setup/)               |                        |
+| [Trusted setup](https://zcoin.io/ufaqs/what-is-trusted-setup/)               |         Yes               |
 | Any other process req. trust               |                              |
 
