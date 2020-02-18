@@ -9,12 +9,12 @@ The authors provide performance times for a few different machine setups. For re
 |                           |           Efficiency         |
 | ------------------------- | :--------------------------: |
 | [Communication complexity](https://en.wikipedia.org/wiki/Communication_complexity)  |                              |
-| Reference string size     |              ;896 MiB              |
-| Setup time                |       ;5 mins 17 secs                   |
+| Reference string size     |              ; 896 MiB              |
+| Setup time                |       ; 5 mins 17 secs                   |
 | Time to generate transactions |                             |
 | Time to verify transactions   |                             |
 | Transaction size          |                            |
-| Computational resources needed |  Intel i7-4770 at 3.40GHz with 16GB RAM and 1 thread                   |
+| Computational resources needed |  Intel i7-4770 at 3.40GHz with 16GB RAM and 1 thread     |
 | Potential for scalability      |                         |
 
 ## Security
