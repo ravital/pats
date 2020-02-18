@@ -11,9 +11,9 @@ The authors provide performance times for a few different machine setups. For re
 | [Communication complexity](https://en.wikipedia.org/wiki/Communication_complexity)  |                              |
 | Reference string size     |              ; 896 MiB              |
 | Setup time                |       ; 5 mins 17 secs                   |
-| Time to generate transactions |                             |
-| Time to verify transactions   |                             |
-| Transaction size          |                            |
+| Time to generate transactions |             ; 2 mins 2.01 secs                |
+| Time to verify transactions   |             ; 5.7 ms                |
+| Transaction size          |             ; 996 B               |
 | Computational resources needed |  Intel i7-4770 at 3.40GHz with 16GB RAM and 1 thread     |
 | Potential for scalability      |                         |
 
@@ -22,12 +22,12 @@ The authors provide performance times for a few different machine setups. For re
 |                           | Security                  |
 | ------------------------- | :--------------------------: |
 | Based on cryptography                 |                          |
-| Based on hardware                 |                             |
+| Based on hardware                 |         No!                    |
 | ZKP                       |   [zk-SNARKs](https://eprint.iacr.org/2013/879)     |
 | Security proofs/analysis                  |                            |
 | Non-standard assumptions                 |      Knowledge-of-Exponent                        |
-| [Post-quantum](https://en.wikipedia.org/wiki/Post-quantum_cryptography)               |       No                    |
-| [Trusted setup](https://zcoin.io/ufaqs/what-is-trusted-setup/)                |            Yes              |
+| [Post-quantum](https://en.wikipedia.org/wiki/Post-quantum_cryptography)               |       No                   |
+| [Trusted setup](https://zcoin.io/ufaqs/what-is-trusted-setup/)                |            Yes         |
 
 ## Flexbility
 
