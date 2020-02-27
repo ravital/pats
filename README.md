@@ -26,7 +26,7 @@ Where possible, we incorporate the definitions of the [ZKProof Community Referen
 Efficiency includes the following properties:
 
 - setup cost (time, size)
-- total communication cost (time, size)
+- total communication cost 
 - time to generate transactions
 - time to verify transactiions
 - computational resources required to achieve stated times
@@ -36,8 +36,8 @@ Efficiency includes the following properties:
 
 Security includes the following:
 
-- hardness assumption used (preferably the hardness assumption used is well-understood and weak; security should be based solely on cryptography)
-- rigorous security proofs/analysis
+- hardness assumption used (preferably the hardness assumption used is well-understood and weak; security should be based solely on cryptography not game theory or hardware)
+- rigorous security proofs/analysis (should be provided by authors)
 - use of trusted setup (trusted setups weaken security)
 - [post-quantum](https://en.wikipedia.org/wiki/Post-quantum_cryptography) (ideal if scheme is post-quantum)
 
@@ -46,12 +46,12 @@ Security includes the following:
 Flexibility includes the following:
 
 - a "universal" reference string (this means the reference string is independent of the relation so we wouldn't need to generate a new reference string to prove a new statement each time)
-- support of arbitrary computation (can we express more complex logic with our scheme? e.g. voting)
+- support of arbitrary computation (can we express more complex logic with our scheme?)
 - support of "stateful" computation (can incorporate some notion of state/time)
 
 ### Trust Level
 
-Trust level indcates if we must trust any party to be "honest" to ensure the system is secure (i.e. trusted setup process).
+Trust level indcates if we must trust any party to be "honest" to ensure the system is "secure" (e.g. trusted setup process).
 
 Schemes that use a trusted setup process, for example, require a higher degree of trust than those that don't. If the party involved in the trusted setup process behaves maliciously, he/she can violate the "zero-knowledge" aspect of the system. Some recent ZKP schemes use "updateable" structured reference strings which require less trust than schemes with a static trusted setup, but more trust than ZKP scheme with no trusted setup whatsoever.
 
