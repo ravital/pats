@@ -1,5 +1,5 @@
 # [Zerocash](http://zerocash-project.org/media/pdf/zerocash-extended-20140518.pdf)
-[Zcash](https://z.cash) uses the [Zerocash protocol](http://zerocash-project.org/media/pdf/zerocash-extended-20140518.pdf).
+[Zcash](https://z.cash) uses the [Zerocash protocol](http://zerocash-project.org/media/pdf/zerocash-extended-20140518.pdf). However, it's important to note that there are some changes Zcash has made to the Zerocash protocol (which can be found in the [protocol specification](https://github.com/zcash/zips/blob/master/protocol/protocol.pdf)). 
 ## Tools
 
 ## Efficiency
@@ -21,10 +21,10 @@ The authors provide performance times for a few different machine setups. For re
 
 |                           | Security                  |
 | ------------------------- | :--------------------------: |
-| Based on cryptography                 |                          |
+| Based on cryptography                 |         Yes&mdash;                 |
 | Based on hardware                 |         No!                    |
 | ZKP                       |   [zk-SNARKs](https://eprint.iacr.org/2013/879)     |
-| Security proofs/analysis                  |                            |
+| Security proofs/analysis                  |         Yes&mdash;rigorous                   |
 | Non-standard assumptions                 |      [Knowledge-of-Exponent](https://medium.com/@VitalikButerin/zk-snarks-under-the-hood-b33151a013f6)                        |
 | [Post-quantum](https://en.wikipedia.org/wiki/Post-quantum_cryptography)               |       No                   |
 | [Trusted setup](https://zcoin.io/ufaqs/what-is-trusted-setup/)                |            Yes         |
@@ -35,7 +35,7 @@ The authors provide performance times for a few different machine setups. For re
 | ------------------------- | :--------------------------: |
 | [Universal reference string](https://docs.zkproof.org/assets/docs/reference-v0.2.pdf)      |              No               |
 | Support of arbitrary computation                |        No                    |
-| Support of stateful computation                 |                        |
+| Support of stateful computation                 |    No!                    |
 | Suggested applications                 |                             |
 
 
