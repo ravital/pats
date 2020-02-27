@@ -21,7 +21,7 @@ The authors provide timings for a few different machine setups. For readers inte
 
 |                           | Security                  |
 | ------------------------- | :--------------------------: |
-| Based on cryptography                 |         Yes&mdash;                 |
+| Based on cryptography                 |         Yes&mdash;discrete logs                 |
 | Based on hardware                 |         No!                    |
 | ZKP                       |   [zk-SNARKs](https://eprint.iacr.org/2013/879)     |
 | Security proofs/analysis                  |         Yes!                   |
