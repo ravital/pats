@@ -4,7 +4,7 @@
 
 ## Efficiency
 
-The authors provide performance times for a few different machine setups. For readers interested in further performance details, we suggest looking at the [paper](http://zerocash-project.org/media/pdf/zerocash-extended-20140518.pdf).
+The authors provide timings for a few different machine setups. For readers interested in further performance details, we suggest looking at the [paper](http://zerocash-project.org/media/pdf/zerocash-extended-20140518.pdf). Zerocash specifies two transaction types&mdash;"Mint" and "Pour." Our chart below only includes details for "Pour" transactions which make use of zk-SNARKs.
 
 |                           |           Efficiency         |
 | ------------------------- | :--------------------------: |
