@@ -44,5 +44,5 @@ The authors provide timings for a few different machine setups. For readers inte
 |                           | Trust Level                  |
 | ------------------------- | :--------------------------: |
 | [Trusted setup](https://zcoin.io/ufaqs/what-is-trusted-setup/)               |         Yes               |
-| Any other process req. trust               |                              |
+| Any other process req. trust               |               No!               |
 
