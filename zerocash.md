@@ -35,7 +35,7 @@ The authors provide timings for a few different machine setups. For readers inte
 | ------------------------- | :--------------------------: |
 | [Universal reference string](https://docs.zkproof.org/assets/docs/reference-v0.2.pdf)      |              No               |
 | Support of arbitrary computation                |        No                    |
-| Support of stateful computation                 |    No!                    |
+| Support of stateful computation                 |    No                    |
 | Suggested applications                 |                             |
 
 
