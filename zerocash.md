@@ -24,7 +24,7 @@ The authors provide timings for a few different machine setups. For readers inte
 | Based on cryptography                 |         Yes&mdash;                 |
 | Based on hardware                 |         No!                    |
 | ZKP                       |   [zk-SNARKs](https://eprint.iacr.org/2013/879)     |
-| Security proofs/analysis                  |         Yes&mdash;rigorous                   |
+| Security proofs/analysis                  |         Yes!                   |
 | Non-standard assumptions                 |      [Knowledge-of-Exponent](https://medium.com/@VitalikButerin/zk-snarks-under-the-hood-b33151a013f6)                        |
 | [Post-quantum](https://en.wikipedia.org/wiki/Post-quantum_cryptography)               |       No                   |
 | [Trusted setup](https://zcoin.io/ufaqs/what-is-trusted-setup/)                |            Yes         |
